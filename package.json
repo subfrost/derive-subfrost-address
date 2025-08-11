@@ -18,11 +18,15 @@
   },
   "homepage": "https://github.com/subfrost/derive-subfrost-address#readme",
   "devDependencies": {
+    "@types/bitcoinjs-lib": "^4.0.1",
     "@types/node": "^24.2.1",
     "nice-repl": "^0.1.2",
     "typescript": "^5.9.2"
   },
   "dependencies": {
-    "alkanes": "https://github.com/kungfuflex/alkanes"
+    "alkanes": "https://github.com/kungfuflex/alkanes",
+    "bitcoinjs-lib": "^6.1.7",
+    "ecpair": "^3.0.0",
+    "tiny-secp256k1": "^2.2.4"
   }
 }

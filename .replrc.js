@@ -1,1 +1,1 @@
-var { fetchSigner } = require('./lib');
+var { computeAddress, fetchSigner } = require('./lib');

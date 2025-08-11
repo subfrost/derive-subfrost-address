@@ -1,0 +1,1 @@
+var { fetchSigner } = require('./lib');

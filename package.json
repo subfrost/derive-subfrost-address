@@ -1,0 +1,28 @@
+{
+  "name": "derive-subfrost-address",
+  "version": "0.1.0",
+  "description": "derive the current SUBFROST p2tr for any network",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "mocha",
+    "build": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/subfrost/derive-subfrost-address.git"
+  },
+  "author": "Subzero Research Inc",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/subfrost/derive-subfrost-address/issues"
+  },
+  "homepage": "https://github.com/subfrost/derive-subfrost-address#readme",
+  "devDependencies": {
+    "@types/node": "^24.2.1",
+    "nice-repl": "^0.1.2",
+    "typescript": "^5.9.2"
+  },
+  "dependencies": {
+    "alkanes": "https://github.com/kungfuflex/alkanes"
+  }
+}
